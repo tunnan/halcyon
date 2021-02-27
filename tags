@@ -1,0 +1,45 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	D:/Programmering/halcyon/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/78621a0a/
+args	src/main.js	/^const args = { ...{$/;"	C
+div	src/lib.js	/^    'div':                   x => `<div>${x}<\/div>`,$/;"	p	class:lib
+div-with-class	src/lib.js	/^    'div-with-class':        (x, y) => `<div class="${x}">${y}<\/div>`,$/;"	p	class:lib
+div-with-id	src/lib.js	/^    'div-with-id':           (x, y) => `<div id="${x}">${y}<\/div>`,$/;"	p	class:lib
+div-with-id-and-class	src/lib.js	/^    'div-with-id-and-class': (x, y, z) => `<div id="${x}" class="${y}">${z}<\/div>`,$/;"	p	class:lib
+fs	src/main.js	/^const fs = require('fs');$/;"	C
+fs	src/template.js	/^const fs = require('fs');$/;"	C
+getEmoji	src/emoji.js	/^function getEmoji(string) {$/;"	f
+h1	src/lib.js	/^    'h1':                    x => `<h1>${x}<\/h1>`,$/;"	p	class:lib
+h2	src/lib.js	/^    'h2':                    x => `<h2>${x}<\/h2>`,$/;"	p	class:lib
+h3	src/lib.js	/^    'h3':                    x => `<h3>${x}<\/h3>`,$/;"	p	class:lib
+h4	src/lib.js	/^    'h4':                    x => `<h4>${x}<\/h4>`,$/;"	p	class:lib
+h5	src/lib.js	/^    'h5':                    x => `<h5>${x}<\/h5>`,$/;"	p	class:lib
+h6	src/lib.js	/^    'h6':                    x => `<h6>${x}<\/h6>`,$/;"	p	class:lib
+inputDir	src/paths.js	/^    inputDir: 'pages' + path.sep,$/;"	p	class:paths
+interpret	src/interpret.js	/^function interpret(tree, lib) {$/;"	f
+li	src/lib.js	/^    'li':                    x => `<li>${x}<\/li>`,$/;"	p	class:lib
+lib	src/lib.js	/^const lib = {$/;"	c
+link	src/lib.js	/^    'link':                  (x, y) => `<a href="${x}">${y}<\/a>`,$/;"	p	class:lib
+outputDir	src/paths.js	/^    outputDir: 'public' + path.sep,$/;"	p	class:paths
+p	src/lib.js	/^    'p':                     x => `<p>${x}<\/p>`,$/;"	p	class:lib
+parse	src/parse.js	/^function parse(tokens, list = []) {$/;"	f
+parseArgs	src/arguments.js	/^function parseArgs(args) {$/;"	f
+path	src/paths.js	/^const path = require('path');$/;"	C
+paths	src/paths.js	/^const paths = {$/;"	c
+preprocess	src/preprocess.js	/^function preprocess(data) {$/;"	f
+processFile	src/main.js	/^function processFile(filename) {$/;"	f
+program	test/interpret.test.js	/^const program = `($/;"	C
+program	test/parse.test.js	/^const program = `($/;"	C
+program	test/preprocess.test.js	/^const program = `($/;"	C
+template	src/template.js	/^function template(templateFile, body) {$/;"	f
+templateDir	src/paths.js	/^    templateDir: 'pages' + path.sep + 'templates' + path.sep,$/;"	p	class:paths
+tokenize	src/tokenize.js	/^function tokenize(token) {$/;"	f
+ul	src/lib.js	/^    'ul':                    x => `<ul>${x}<\/ul>`,$/;"	p	class:lib
