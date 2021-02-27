@@ -1,5 +1,4 @@
-(
-    (h1 "Hello world")
+((h1 "Hello world")
     (p "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
         sed do eiusmod tempor incididunt ut labore et dolore magna 
         aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
@@ -21,5 +20,4 @@
     (div-with-class "box"
         (p "This is inside a div with the class .box"))
 
-    (link "foo.html" "foo")
-)
+    (link "foo.html" "foo"))
